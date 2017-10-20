@@ -1,0 +1,184 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "微软雅黑"; }
+
+body, html {
+  width: 100%; }
+
+header {
+  width: auto;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  header img {
+    height: 0.77rem;
+    width: 2.16rem;
+    margin-left: 0.18rem; }
+  header .tow {
+    font-size: 0.33rem;
+    margin-right: 0.18rem;
+    color: #999999; }
+  header .div_center {
+    font-size: 0.36rem; }
+  header .div_rignt {
+    font-size: 0.22rem; }
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%; }
+
+.container {
+  margin: 0 8px; }
+  .container .section1 {
+    width: auto;
+    margin: 0 auto; }
+    .container .section1 .div_top {
+      width: 100%;
+      height: 0.48rem;
+      background: gainsboro;
+      line-height: 0.48rem;
+      font-size: 0.24rem;
+      color: #000000;
+      border-radius: 5px; }
+    .container .section1 .div_center {
+      margin-top: 0.36rem;
+      font-size: 0.36rem;
+      color: #000;
+      text-align: center; }
+    .container .section1 .div_bottom {
+      justify-content: center;
+      margin-top: 0.36rem; }
+      .container .section1 .div_bottom div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.30rem;
+        color: #999; }
+        .container .section1 .div_bottom div span {
+          margin-left: 0.5rem; }
+        .container .section1 .div_bottom div .three {
+          font-size: 0.30rem; }
+    .container .section1 .tiao {
+      width: 100%;
+      height: 1px;
+      margin-top: 0.3rem;
+      background: #eaeaea; }
+  .container .section2 {
+    width: auto;
+    margin: 0 auto;
+    margin-top: 0.2rem; }
+    .container .section2 .ul {
+      width: auto;
+      display: flex;
+      flex-wrap: wrap; }
+      .container .section2 .ul li {
+        margin-right: 0.12rem;
+        font-size: 0.24rem;
+        height: 0.32rem;
+        line-height: 0.32rem;
+        border: 1px solid #eaeaea;
+        border-radius: 5px;
+        color: gainsboro; }
+    .container .section2 .div_center {
+      text-indent: 0.7rem;
+      margin-top: 0.36rem;
+      font-size: 0.24rem;
+      color: #666; }
+      .container .section2 .div_center img {
+        width: 5.27rem;
+        height: 3.5rem;
+        margin-top: 0.3rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0.48rem; }
+  .container .section3 {
+    width: auto;
+    height: 0.7rem;
+    border: 1px solid #2bb281;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.7rem;
+    border-radius: 5px;
+    color: #2bb281; }
+  .container .section4 {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+    margin-bottom: 0.36rem;
+    margin-top: 0.36rem; }
+    .container .section4 img {
+      width: 1rem;
+      height: 1rem; }
+
+.section5 {
+  width: 100%;
+  height: 0.18rem;
+  background: gainsboro;
+  margin-top: 0.24rem;
+  margin-bottom: 0.36rem; }
+
+.banner {
+  margin: 0 8px; }
+  .banner .top {
+    border-left: 3px solid #2bb281;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.24rem; }
+  .banner .center .ca {
+    width: auto;
+    display: flex;
+    padding-bottom: 0.2rem;
+    margin-top: 0.2rem; }
+  .banner .center .cc {
+    width: auto;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    padding-bottom: 0.2rem;
+    margin-top: 0.2rem; }
+  .banner .center img {
+    width: 1.88rem;
+    height: 1.42rem; }
+  .banner .center .c {
+    margin-left: 0.2rem; }
+    .banner .center .c p {
+      font-size: 24px; }
+    .banner .center .c div {
+      font-size: 18px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 0.7rem; }
+
+.bottom {
+  font-size: 20px;
+  margin: 0 8px;
+  text-indent: 0.5rem; }
+
+.bt {
+  font-size: 20px;
+  margin-bottom: 0.2rem;
+  text-align: center; }
+  .bt span {
+    color: #2BB281; }
+
+.ul2 {
+  margin: 0 8px;
+  font-size: 20px;
+  display: flex; }
+  .ul2 li {
+    width: 25%;
+    text-align: center; }
+
+.li {
+  color: #2BB281; }
+
+.img {
+  width: 100%;
+  margin-bottom: 0px !important; }
+
+/*# sourceMappingURL=scss.css.map */
